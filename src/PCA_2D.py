@@ -3,6 +3,8 @@ from sklearn.preprocessing import StandardScaler
 import pandas as pd
 
 
+# Preprocessing data (compress attributes to only two principal components)
+
 def return_two_components_transformed(in_data):
     pca = PCA(n_components=2)
 
